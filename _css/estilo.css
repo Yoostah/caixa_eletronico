@@ -1,0 +1,197 @@
+/*
+** Padrao de cores do site **
+
+#D0CFCF  -  Cinza quase Branco
+#7B8B94  -  Cinza
+#0C5C9A  -  Azul
+#DA251D  -  Vermelho
+#000000  -  Preto
+
+*/
+
+* {
+	font-family: Verdana;
+}
+
+body{
+	margin: 0px;
+	padding-top: 0px;	
+}
+
+.fundo {
+	background-color: #0C5C9A;
+	height: 100%;
+}
+
+.conteudo{
+	width:700px;
+	height:617px;
+	background-color: #FFFFFF;
+	border: 1px solid white;
+	position:absolute;
+	top:50%;
+	left:50%;
+    margin-left:-350px;
+	margin-top:-300px;
+	box-shadow: 0px 0px 5px 2px rgba(255,255,255,1);
+
+}
+
+.conteudo_caixa{
+	display:inline-block;
+	width:75%;
+	height:95%;
+	background-color: #FFFFFF;
+	border: 10px solid white;
+	margin:15px 0px 0px 200px;
+	box-shadow: 0px 0px 5px 2px rgba(255,255,255,1);
+
+}
+
+.conteudo_caixa span{
+	font-weight: bold;
+
+}
+
+.info_cliente {
+	background-color: #D0CFCF;
+	padding-left: 10px;
+	border-color: white;
+	border-style: solid;
+	margin: 9px 9px 9px 9px;
+	border-width: 1px 1px 1px 1px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+
+.caixa_botoes{
+	text-align: center;	
+	border-color: white;
+	border-style: solid;
+	margin: 15px 9px 15px 9px;
+	padding: 5px 0px 5px 0px;
+	border-width: 1px 1px 1px 1px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+
+
+}
+
+.caixa_botoes button{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 200px;
+	height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+    background-color: #DA251D;
+    border-radius: 12px;
+    color: white;
+
+}
+
+.caixa_botoes button:hover{
+    background-color: white;
+    color: #DA251D;
+
+}
+
+.cabecalho{
+	background-color: #FFFFFF;
+	margin: auto;
+	border-color: white;
+	border-style: solid;
+	border-width: 10px 10px 0px 10px;
+}
+
+.extrato{
+	padding: 10px;
+	background-color: #D0CFCF;
+	border-color: white;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	margin: 9px 9px 9px 9px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+
+.cabecalho img {
+	padding: 10px;
+	margin: 20px 14% 20px 14%;
+
+}
+
+.cabecalho #logo  {
+	margin: auto;
+}
+
+.cabecalho h2 {
+	background-color: #D0CFCF;
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+	line-height: 25px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+
+.cabecalho #nome_pag  {
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+	font-size: 35px;
+	line-height: 60px;
+}
+
+.cabecalho a {
+	width: 250px;
+	height: 100px;
+	font-weight: bold;
+    text-transform: none;
+    background-color: #7B8B94;
+    border-radius: 12px;
+
+}
+
+.cabecalho button{
+	width: 200px;
+	height: 50px;
+	font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+	right: 13%;
+	top: 3%;
+}
+
+.cabecalho button:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.campos{
+	line-height: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 2px;
+	border: 1px solid white;
+	color: #FFFFFF;
+	background-color: #DA251D;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: none;
+	margin: 10px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+
+.campos button{
+	width: 200px;
+	height: 50px;
+	font-weight: bold;
+    text-transform: uppercase;
+    background-color: #000000;
+    border-radius: 12px;
+    color: white;
+}
+
+.campos button:hover{
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+
+}
