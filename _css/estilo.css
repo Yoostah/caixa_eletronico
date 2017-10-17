@@ -104,7 +104,7 @@ body{
 
 .extrato{
 	padding: 10px;
-	background-color: #D0CFCF;
+	background-color: #FFFFFF;//#D0CFCF;
 	border-color: white;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
@@ -195,3 +195,72 @@ body{
     cursor: pointer;
 
 }
+
+/*--------------------------------------------
+-------------- TABELA DE EXTRATO -----------*/
+
+table {
+	margin: auto;
+  border-collapse: collapse;
+  width: 50em;
+  border: 1px solid #666;
+  font: 75%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+thead {
+  background: #ccc url("../_imagens/bar.gif") repeat-x left center;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+thead#final {
+  background: #ccc url("../_imagens/bar_final.gif") repeat-x left center;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+tr#extrato:hover {
+  background-color: #D0CFCF;
+  font-weight: bolder;
+  height: 30px;
+  font-size: 14px;
+}
+
+tr#extrato:hover:nth-child(even) {
+  background-color: #D0CFCF;
+  font-weight: bolder;
+  height: 30px;
+  font-size: 14px;
+}
+
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe2e4;
+}
+
+th {
+  font-weight: normal;
+  text-align: center;
+}
+
+th#saldo_final {
+  font-weight: bold;
+  text-align: right;
+}
+
+th#saldo {
+  font-weight: bold;
+  text-align: center;
+}
+
+th, td {
+  padding: 0.1em 1em;
+}
+
+
+

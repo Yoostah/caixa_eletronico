@@ -1,0 +1,69 @@
+/*
+** Padrao de cores do site **
+
+#D0CFCF  -  Cinza quase Branco
+#7B8B94  -  Cinza
+#0C5C9A  -  Azul
+#DA251D  -  Vermelho
+#000000  -  Preto
+
+*/
+
+* {
+	font-family: Verdana;
+}
+
+body {
+	background-image: url(../_imagens/atm.jpg);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-color: #0C5C9A;
+}
+
+.tela{
+	width: 240px;
+	height: 205px;
+	position: absolute;
+	left: 39.5%;
+	bottom:30%;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+button#operacao {
+	margin: 5px;
+	width: 200px;
+	height: 50px;
+	font-weight: bold;
+    text-transform: uppercase;
+    background-color: #DA251D;
+    border-radius: 12px;
+    color: white;
+}
+
+button#operacao:hover{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+
+}
+
+button#voltar {
+	width: 250px;
+	height: 30px;
+	font-weight: bold;
+    text-transform: uppercase;
+    background-color: #000000;
+    border-radius: 12px;
+	margin: 230px 55px;
+	color: white;
+}
+
+button#voltar:hover{
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+
+}

@@ -47,13 +47,14 @@ if(isset($_SESSION['conta']) && empty($_SESSION['conta']) == false){
 	<html>
 	<head>
 		<meta charset="utf-8">
+	    <link rel="stylesheet" type="text/css" href="_css/caixa.css">
 	</head>
 	<body>
-		<div align="center">
+		<div class="tela">
 		<form method="post">
-			Digite o valor que deseja sacar:<br>
-			R$ <input type="text" id="vlr_saque" name="vlr_saque"><br><br>
-			<button type=submit id="sacar" onclick="return campo_vazio()">Sacar</button>
+			<p>Digite o valor que deseja sacar:<br><p>
+			R$ <input type="text" id="vlr_saque" maxlength="15" size="15" name="vlr_saque"><br><br>
+			<button type=submit id="operacao" onclick="return campo_vazio()">Sacar</button>
 			<button type=button id="voltar" onclick="location.href='caixa.php'">Voltar ao Menu anterior</button>
 		</form>
 		</div>
